@@ -103,7 +103,7 @@ submission.to_csv("submission.csv", index=False)
 """
 param_list = {
     "learning_rate": [0.01, 0.05, 0.1],
-    "max_leaf_nodes": [15, 31, 63], # controlează complexitatea/overfitting-ul
+    "max_leaf_nodes": [15, 31, 63], # controleaza complexitatea/overfitting-ul
     "min_samples_leaf": [20, 50],
     "l2_regularization": [0, 0.5, 1]
 }
